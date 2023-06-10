@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="11" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T12:42:04 IST" name="Loan Department" finished-at="2023-05-28T12:42:04 IST" duration-ms="164">
+    <groups>
+      <group name="smoke">
+        <method signature="Day2.method1()[pri:0, instance:Basics.Day2@27ff5d15]" name="method1" class="Basics.Day2"/>
+        <method signature="Day3.MobileSignOutCloan()[pri:0, instance:Basics.Day3@16610890]" name="MobileSignOutCloan" class="Basics.Day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-05-28T12:42:04 IST" name="Personal Loan" finished-at="2023-05-28T12:42:04 IST" duration-ms="65">
+      <class name="Basics.Day1">
+        <test-method signature="method1(java.lang.String)[pri:0, instance:Basics.Day1@51dcb805]" started-at="2023-05-28T12:42:04 IST" name="method1" finished-at="2023-05-28T12:42:04 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:Basics.Day1@51dcb805]" started-at="2023-05-28T12:42:04 IST" name="method2" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="AfterExec()[pri:0, instance:Basics.Day1@51dcb805]" started-at="2023-05-28T12:42:04 IST" name="AfterExec" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterExec -->
+      </class> <!-- Basics.Day1 -->
+      <class name="Basics.Day2">
+        <test-method is-config="true" signature="method2()[pri:0, instance:Basics.Day2@27ff5d15]" started-at="2023-05-28T12:42:04 IST" name="method2" finished-at="2023-05-28T12:42:04 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="method1()[pri:0, instance:Basics.Day2@27ff5d15]" started-at="2023-05-28T12:42:04 IST" name="method1" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- Basics.Day2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-05-28T12:42:04 IST" name="Car Loan" finished-at="2023-05-28T12:42:04 IST" duration-ms="15">
+      <class name="Basics.Day3">
+        <test-method is-config="true" signature="BfClass()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="BfClass" finished-at="2023-05-28T12:42:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfClass -->
+        <test-method is-config="true" signature="BfMethod()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="BfMethod" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method signature="MobileLoginCloan()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="MobileLoginCloan" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCloan -->
+        <test-method is-config="true" signature="AfMethod()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="AfMethod" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method is-config="true" signature="BfMethod()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="BfMethod" finished-at="2023-05-28T12:42:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method signature="MobileSignOutCloan()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="MobileSignOutCloan" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutCloan -->
+        <test-method is-config="true" signature="AfMethod()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="AfMethod" finished-at="2023-05-28T12:42:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method signature="MobileSigninCloan()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="MobileSigninCloan" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSigninCloan -->
+        <test-method is-config="true" signature="BfMethod()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="BfMethod" finished-at="2023-05-28T12:42:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method is-config="true" signature="AfMethod()[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="AfMethod" finished-at="2023-05-28T12:42:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method signature="WebLoginCloan(java.lang.String)[pri:0, instance:Basics.Day3@16610890]" started-at="2023-05-28T12:42:04 IST" name="WebLoginCloan" finished-at="2023-05-28T12:42:04 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'C_URL' is required by @Test on method WebLoginCloan but has not been marked @Optional or defined
+in C:\Users\000A7V744\Desktop\NHS\SeleniumTraining\TestNGBasics\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'C_URL' is required by @Test on method WebLoginCloan but has not been marked @Optional or defined
+in C:\Users\000A7V744\Desktop\NHS\SeleniumTraining\TestNGBasics\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCloan -->
+      </class> <!-- Basics.Day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2023-05-28T12:42:04 IST" name="Home Loan" finished-at="2023-05-28T12:42:04 IST" duration-ms="8">
+      <class name="Basics.Day4">
+        <test-method signature="APILoginHloan()[pri:0, instance:Basics.Day4@66d3eec0]" started-at="2023-05-28T12:42:04 IST" name="APILoginHloan" finished-at="2023-05-28T12:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHloan -->
+      </class> <!-- Basics.Day4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
